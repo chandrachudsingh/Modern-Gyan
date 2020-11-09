@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+/* Header Panel */
+header{
+    background-image: linear-gradient(45deg, rgb(0, 171, 238), rgb(0, 238, 255));
+    padding: 10px 20px;
+    margin: 0px;
+    border-bottom: 2px solid rgb(136, 0, 214);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+#greeting{
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    width: 25%;
+    cursor: default;
+}
+
+/* website name */
+#SiteName{
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    padding: 0px 3px;
+    border-radius: 8px;
+    margin-left: 16%;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+}
+
+/* Search Bar in header  */
+#SearchBar{
+    width: 25%;
+    margin-left: 5%;
+}
+
+#SearchBar div{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#SearchBar input[type="search"]{
+    width: 80%;
+    font-size: 15px;
+    background-color: rgb(65, 227, 255);
+    padding: 4px 10px;
+    margin: 0px;
+    border: 0.1px solid rgba(100, 100, 100, 0.555);
+    border-radius: 6px 0px 0px 6px;
+}
+
+#SearchBar button{
+    color: rgb(100, 100, 100);
+    background-color: rgb(0, 183, 255);
+    font-size: 18px;
+    padding: 7px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+}
+
+#SearchBar button:hover{
+    color: rgb(136, 135, 135);
+    transition: all 0.3s ease-out;
+}
+
+#SearchBar input[type="search"]{
+    outline: none;
+}
+
+#LogoutBtn{
+    margin-left: 5%;
+}
+
+#LogoutBtn input[type="submit"]{
+    font-size: 15px;
+    background-color: rgb(70, 128, 204);
+    padding: 4px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#LogoutBtn input[type="submit"]:hover, header > input[type="submit"]:active{
+    background-color:  rgb(71, 157, 255);
+    transition: all 0.3s ease-out;
+}
+
+#LogoutBtn input[type="submit"]:focus{
+    outline: none;
+}
+
+/* Site current data display */
+#CurrentDetails{
+    margin: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 6px rgb(158, 158, 158);
+    border-radius: 2px;
+    background-color: ghostwhite;
+}
+
+/* Registered students count */
+#student_count{
+    padding: 0%;
+    text-align: center;
+    width: fit-content;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: auto;
+    transition: all 0.3s ease-out;
+}
+
+#student_count h3:hover{
+    color: gray;
+}
+
+#student_count p{
+    margin: 10px 0px;
+}
+
+/* Active students count */
+#active_student_count{
+    padding: 0%;
+    text-align: center;
+    width: fit-content;
+    margin: 10px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: auto;
+    transition: all 0.2s ease-out;
+}   
+
+#active_student_count h3:hover{
+    color: gray;
+}
+
+#active_student_count p{
+    margin: 10px 0px;
+}
+
+/* Faculty count */
+#faculty_count{
+    text-align: center;
+    width: fit-content;
+    margin: 10px 0px;
+    cursor: default;
+}
+
+@keyframes ExpandDetails{
+    from{
+        height: 6%;
+    }
+
+    to{
+        height: 20%;
+    }
+}
+
+/* Task buttons */
+#BtnPanel{
+    width: 60vw;
+    text-align: center;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#BtnPanel input[type="submit"]{
+    border: none;
+    border-radius: 6px;
+    padding: 5px 25px;
+    background-color: rgb(70, 128, 204);
+    cursor: pointer;
+}
+
+#BtnPanel input[type="submit"]:hover, #BtnPanel input[type="submit"]:active{
+    background-color: rgb(71, 157, 255);
+    transition: all 0.3s ease-out;
+}
+
+#BtnPanel input[type="submit"]:focus{
+    outline: none;
+}
+
+/* Faculty details display */
+
+/* Icon to expand the panel */
+#expandIcon{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 4px;
+    position: relative;
+    top: 1.7px;
+    left: 97%;
+    border: 2px solid black;
+    border-radius: 4px 4px 0px 0px;
+    z-index: 10;
+}
+
+#expandIcon i{
+    font-size: 16px;
+}
+
+#expandIcon i:hover{
+    color: gray;
+    transition: all 0.2s ease-out;
+}
+
+/* Panel */
+#FacultyDisplay{
+    height: 58vh;
+    margin: 0px 20px 20px 20px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px 0px 6px 6px;
+    overflow: auto;
+    background-color: ghostwhite;
+}
+
+/* Heading of the list */
+.FacultyDetailsHead{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    background-image: linear-gradient(180deg, white, rgb(239, 222, 247));
+}
+
+.FacultyHeading{
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    text-decoration: underline;
+}
+
+/* faculty list items */
+.FacultyDetails{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+}
+
+.FacultyDetails:hover{
+    transform: scale(1.006);
+    transition: all 0.2s ease-out;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.Serialno{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    align-self: center;
+}
+
+.FacultyDetails img{
+    width: 4%;
+    height: 4%;
+    margin: auto 7%;
+}
+
+input[type="text"]{
+    text-align: center;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+    width: 18%;
+    border: none;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+.DetailsBtn{
+    width: 18%;
+    text-align: center;
+    align-self: center;
+}
+
+.DetailsBtn input[type="submit"]{
+    border: none;
+    border-radius: 6px;
+    padding: 5px 25px;
+    background-color: rgb(0, 179, 250);
+    cursor: pointer;
+}
+
+.DetailsBtn input[type="submit"]:hover, #BtnPanel input[type="submit"]:active{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.3s ease-out;
+}
+
+.DetailsBtn input[type="submit"]:focus{
+    outline: none;
+}

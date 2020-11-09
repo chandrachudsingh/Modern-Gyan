@@ -1,0 +1,158 @@
+@import "FacultySiteHeader.css";  /* Site Header */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+/* iframe of courses details */
+#IframePanel{
+    margin: 2% 1.4% 1.4% 1.4%;
+    box-shadow: 0px 0px 6px rgb(158, 158, 158);
+    border-radius: 2px;
+    background-color: ghostwhite;
+}
+
+#IframeSrcPanel{
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1.4px solid rgb(212, 212, 212);
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+#IframeSrcPanel a{
+    color: black;
+    padding: 0.6%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-family: OpenSans,Arial,sans-serif;
+    text-decoration: none;
+    border-bottom: 4px solid white;
+    transition: all 0.1s linear;
+}
+
+#IframeSrcPanel a:hover{
+    color: rgb(70, 70, 70);
+}
+
+#Courses{
+    width: 100%;
+    height: 48vh;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    overflow: auto;
+}
+
+/* Faculty Preferences update */
+/* Work Heading */
+#WorkHead{
+    width: fit-content;
+    padding: 4px;
+    margin: auto;
+    background-color: rgba(163, 15, 248, 0.7);
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    top: 1vh;
+}
+
+/* Faculty data form */
+#UpdatePreferencesForm{
+    padding: 10px 20px;
+    margin: 4% 0%;
+    box-sizing: border-box;
+    background-image: linear-gradient(135deg, rgb(246, 225, 255), rgb(220, 255, 255));
+}
+
+fieldset{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgba(248, 248, 255, 0.300);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+fieldset legend{
+    margin: 0px;
+    font-weight: bold;
+}
+
+fieldset select{
+    width: 80%;
+    padding: 4px 10px;
+    margin: 0.4vw 3vw 0.4vw 0vw;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.1);
+    border: 0.1px solid rgb(151, 151, 151);
+    border-radius: 8px;
+}
+
+fieldset input[type="time"]{
+    width: 44%;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.1);
+    border: 0.1px solid rgb(151, 151, 151);
+    border-radius: 4px;
+}
+
+#Slots table td{
+    padding: 0.4vw 10vw 0.4vw 0vw;
+}
+
+/* Submit button */
+#UpdateBtn{
+    margin-top: 8px;
+    text-align: center;
+}
+
+#UpdateBtn input[type="submit"]{
+    padding: 4px 80px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 129, 250);
+    cursor: pointer;
+}
+
+#UpdateBtn input[type="submit"]:hover, input[type="submit"]:active{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.2s ease-out;
+}
+
+#UpdateBtn input[type="submit"]:focus{
+    outline: none;
+}
+
+/* Success Message */
+#SuccessMessage{
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 34%;
+}
+
+#SuccessMessage label{
+    color: rgb(5, 230, 5);
+    background-color: rgb(49, 49, 49);
+    font-size: 26px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+#SuccessMessage i{
+    color: rgb(5, 230, 5);
+    font-size: 26px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login | Modern-Gyan</title>
+
+    <link rel="stylesheet" href="AdminLogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <span id="SiteName" title="Modern-Gyan"> Modern-Gyan </span>
+    <div id="LoginPanel">
+        <div id="LoginImage"> <img src="../Images/identity-verification-admin.svg" alt=""> </div>
+        <div id="LoginFields">
+            <i class="fas fa-sign-in-alt"></i>
+            <h1>Login</h1>
+            <p>Perform all site actions and operations.</p>
+            <form action="AdminLoginBack.jsp" method="POST">
+                <input type="text" name="txUser" id="user" placeholder="Enter Admin Id">
+                <input type="password" name="txPassword" id="password" placeholder="Enter Password" minlength="4">
+                <input type="submit" id="btLogin" value="Login">
+            </form>
+            <p id="SignupLine"> <ins>Note</ins> : New admin can only be added by admins.</p>
+        </div>
+    </div>
+</body>
+</html>

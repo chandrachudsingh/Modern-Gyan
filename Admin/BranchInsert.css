@@ -1,0 +1,120 @@
+@import "AdminSiteHeader.css";   /* Site Header */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    background-image: url("../Images/blue-pattern_background.jpg");
+}
+
+/* Branch Insert Panel */
+#BranchInsertPanel{
+    height: 28vh;
+    padding: 20px;
+    margin: 6vh 20px 20px 20px;
+    font-size: 16px;
+}
+
+/* Work Heading */
+#WorkHead{
+    width: fit-content;
+    padding: 4px;
+    margin: auto;
+    background-color: rgba(163, 15, 248, 0.7);
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    top: 3%;
+}
+
+/* Branch Insert form */
+#BranchInsertPanel form{
+    width: 40vw;
+    height: 90%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#BranchInsertPanel table{
+    width: 100%;
+}
+
+#BranchInsertPanel table th{
+    width: 40%;
+    padding: 3px;
+    text-align: left;
+}
+
+#BranchInsertPanel table td{
+    height: 100%;
+    padding: 10px 4px;
+    text-align: left;
+}
+
+#BranchInsertPanel input[type="text"]{
+    font-size: 14px;
+    width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.5);
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+}
+
+#BranchAddBtn{
+    margin-top: 16px;
+    text-align: center;
+}
+
+#BranchAddBtn input[type="submit"]{
+    padding: 4px 40px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 179, 250);
+    cursor: pointer;
+}
+
+#BranchAddBtn input[type="submit"]:hover, input[type="submit"]:active{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.2s ease-out;
+}
+
+#BranchAddBtn input[type="submit"]:focus{
+    outline: none;
+}
+
+.colon{
+    width: fit-content;
+    padding-right: 10px;
+    text-align: left;
+}
+
+/* Success Message */
+#SuccessMessage{
+    text-align: center;
+    margin: 10vh 20px 20px 20px;
+}
+
+#SuccessMessage label{
+    color: rgb(5, 230, 5);
+    background-color: rgb(49, 49, 49);
+    font-size: 26px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+#SuccessMessage i{
+    color: rgb(5, 230, 5);
+    font-size: 26px;
+}

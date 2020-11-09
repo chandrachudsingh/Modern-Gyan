@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    background-image: url("../Images/pattern_color_stripes_background.jpg");
+}
+
+/* Site Name */
+#SiteName{
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    height: fit-content;
+    padding: 0px 3px;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+/* Work Heading */
+#WorkHead{
+    width: fit-content;
+    padding: 4px;
+    margin: auto;
+    margin-top: 6vh;
+    background-color: rgba(163, 15, 248, 0.7);
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    top: 1vh;
+}
+
+/* Personal Information */
+#StudentRegisterForm{
+    height: 100%;
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgba(248, 248, 255, 0.400);
+    display: flex;
+    flex-direction: column;
+}
+
+#StudentDetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+#StudentDetails table{
+    width: 46%;
+}
+
+#StudentDetails table th{
+    width: 36%;
+    padding: 3px;
+    text-align: left;
+}
+
+#StudentDetails table td{
+    height: 100%;
+    padding: 3px;
+    text-align: left;
+}
+
+.colon{
+    width: 4%;
+    text-align: left;
+}
+
+#StudentDetails textarea{
+    height: 6rem;
+    resize: none;
+}
+
+#StudentDetails textarea, input[type="text"], input[type="number"], input[type="date"], input[type="email"], input[type="password"], select{
+    width: 100%;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.411);
+    border: 0.1px solid rgb(151, 151, 151);
+    border-radius: 8px;
+}
+
+#GenderValue{
+    margin: 0% 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ProofFileChoose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProofFileChoose input[type="file"]{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.ProofFileChoose input[type="file"]+label{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px 20px;
+    color: black;
+    background-color: rgba(248, 248, 255, 0.500);
+    border: 2px solid red;
+    border-radius: 2px;
+    display: inline-block;
+    width: 160px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.ProofFileChoose input[type="file"]+label:hover, input[type="file"]+label:focus{
+    color: white;
+    background-color: red;
+}
+
+.ProofFileChoose img{
+    width: 80px;
+    height: 80px;
+    text-align: right;
+}
+
+#RegisterBtn{
+    margin-top: 8px;
+    text-align: center;
+}
+
+#RegisterBtn input[type="submit"]{
+    padding: 4px 80px;
+    margin: 20px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 179, 250);
+    cursor: pointer;
+}
+
+#RegisterBtn input[type="submit"]:hover, input[type="submit"]:active{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.2s ease-out;
+}
+
+#RegisterBtn input[type="submit"]:focus{
+    outline: none;
+}

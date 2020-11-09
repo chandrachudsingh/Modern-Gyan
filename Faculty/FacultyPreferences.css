@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    background-image: url("../Images/pattern_color_stripes_background.jpg");
+}
+
+/* Site Name */
+#SiteName{
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    height: fit-content;
+    padding: 0px 3px;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+/* Work Heading */
+#WorkHead{
+    width: fit-content;
+    padding: 4px;
+    margin: auto;
+    margin-top: 6vh;
+    background-color: rgba(163, 15, 248, 0.7);
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    top: 1vh;
+}
+
+/* Faculty data form */
+form{
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+fieldset{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgba(248, 248, 255, 0.400);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+fieldset legend{
+    margin: 0px;
+    font-weight: bold;
+}
+
+fieldset select{
+    width: 80%;
+    padding: 4px 10px;
+    margin: 0.4vw 4vw 0.4vw 0vw;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.411);
+    border: 0.1px solid rgb(151, 151, 151);
+    border-radius: 8px;
+}
+
+fieldset input[type="time"]{
+    width: 44%;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.411);
+    border: 0.1px solid rgb(151, 151, 151);
+    border-radius: 4px;
+}
+
+#Slots table td{
+    padding: 0.4vw 10vw 0.4vw 0vw;
+}
+
+/* Submit button */
+#SubmitBtn{
+    margin-top: 8px;
+    text-align: center;
+}
+
+#SubmitBtn input[type="submit"]{
+    padding: 4px 80px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 129, 250);
+    cursor: pointer;
+}
+
+#SubmitBtn input[type="submit"]:hover, input[type="submit"]:active{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.2s ease-out;
+}
+
+#SubmitBtn input[type="submit"]:focus{
+    outline: none;
+}

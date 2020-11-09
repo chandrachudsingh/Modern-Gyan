@@ -1,0 +1,87 @@
+
+/* Header Panel */
+header{
+    background-image: linear-gradient(45deg, rgb(0, 171, 238), rgb(0, 238, 255));
+    padding: 10px 20px;
+    margin: 0px;
+    border-bottom: 2px solid rgb(136, 0, 214);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+/* Home button */
+#ProfileBtn{
+    width: fit-content;
+}
+
+#ProfileBtn button{
+    text-align: center;
+    padding: 2px 2px;
+    font-size: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+#ProfileBtn button:hover, button:active{
+    color: rgb(57, 7, 114);
+    transition: all 0.2s ease-out;
+}
+
+#ProfileBtn button:focus{
+    outline: none;
+}
+
+/* Greeting */
+#greeting{
+    color: darkblue;
+    font-size: 24px;
+    margin-left: 2%;
+    font-weight: bold;
+    display: inline-block;
+    width: 25%;
+    cursor: default;
+}
+
+/* website name */
+#SiteName{
+    margin-left: 10.8%;
+    padding: 0px 3px;
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+}
+
+/* Logout button */
+#LogoutBtn{
+    margin-left: 12%;
+    width: 28%;
+    text-align: end;
+}
+
+#LogoutBtn input[type="submit"]{
+    font-size: 15px;
+    background-color: rgb(70, 128, 204);
+    padding: 4px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#LogoutBtn input[type="submit"]:hover, header > input[type="submit"]:active{
+    background-color:  rgb(71, 157, 255);
+    transition: all 0.3s ease-out;
+}
+
+#LogoutBtn input[type="submit"]:focus{
+    outline: none;
+}

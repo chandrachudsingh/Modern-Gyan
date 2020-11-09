@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    height: 99vh;
+    background-image: url("Images/pattern_color_stripes_background.jpg");
+}
+
+/* Site Name */
+#SiteName{
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    height: fit-content;
+    padding: 0px 3px;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+    position: fixed;
+    top: 6vh;
+    left: 42vw;
+}
+
+/* Login panel */
+#LoginPanel{
+    width: 54vw;
+    height: 70vh;
+    margin: auto;
+    position: absolute;
+    top: 14vh;
+    left: 23vw;
+    border-radius: 16px;
+    background-color: rgba(248, 248, 255, 0.300);
+    display: flex;
+}
+
+#LoginImage{
+    width: 40%;
+    height: 100%;
+}
+
+#LoginImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 0px 0px 16px;
+}
+
+#LoginPanel h1{
+    margin: 2%;
+}
+
+#LoginFields i{
+    font-size: 40px;
+}
+
+#LoginPanel p{
+    font-size: 18px;
+    margin: 2% 0%;
+}
+
+#LoginFields{
+    width: 60%;
+    height: 100%;
+    padding: 4%;
+    box-sizing: border-box;
+    border-radius: 0px 16px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#LoginFields form{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#LoginFields div{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#LoginFields input[type="text"], input[type="password"]{
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    width: 90%;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 6px;
+    background-color: rgba(245, 245, 245, 0.411);
+}
+
+#LoginFields input[type="text"]:focus, input[type="password"]:focus{
+    outline: none;
+}
+
+#LoginFields input[type="submit"]{
+    font-size: 16px;
+    background-color: rgb(101, 83, 255);
+    padding: 5px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#LoginFields input[type="submit"]:hover, input[type="submit"]:active{
+    background-color: rgb(152, 80, 247);
+    transition: all 0.3s ease-out;
+}
+
+#LoginFields input[type="submit"]:focus{
+    outline: none;
+}
+    
+a{
+    color: rgb(174, 0, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(87, 101, 223);
+}
+
+/* Success Message */
+#SuccessMessage{
+    text-align: center;
+    position: absolute;
+    top: 88%;
+    left: 30%;
+}
+
+#SuccessMessage label{
+    color: rgb(5, 230, 5);
+    background-color: rgb(49, 49, 49);
+    font-size: 26px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+#SuccessMessage i{
+    color: rgb(5, 230, 5);
+    font-size: 26px;
+}

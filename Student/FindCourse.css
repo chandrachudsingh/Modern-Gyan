@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+/* Header Panel */
+header{
+    background-image: linear-gradient(45deg, rgb(0, 171, 238), rgb(0, 238, 255));
+    padding: 10px 20px;
+    margin: 0px;
+    border-bottom: 2px solid rgb(136, 0, 214);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+/* Home button */
+#HomeBtn{
+    width: fit-content;
+}
+
+#HomeBtn button{
+    height: 100%;
+    padding: 8px 4px;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(116, 78, 255);
+    cursor: pointer;
+}
+
+#HomeBtn button:hover, button:active{
+    color: rgb(51, 51, 51);
+    transition: all 0.2s ease-out;
+}
+
+#HomeBtn button:focus{
+    outline: none;
+}
+
+/* Greetings */
+#greeting{
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 2%;
+    display: inline-block;
+    width: 25%;
+    cursor: default;
+}
+
+/* Website name */
+#SiteName{
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    padding: 0px 3px;
+    border-radius: 8px;
+    margin-left: 10.6%;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+}
+
+/* Searchbar in header */
+#SearchBarForm{
+    width: 25%;
+    margin-left: 5%;
+}
+
+#SearchBar{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#SearchBar input[type="search"]{
+    width: 80%;
+    font-size: 15px;
+    background-color: rgb(65, 227, 255);
+    padding: 4px 10px;
+    margin: 0px;
+    border: 0.1px solid rgba(100, 100, 100, 0.555);
+    border-radius: 6px 0px 0px 6px;
+}
+
+#SearchBar button{
+    color: rgb(100, 100, 100);
+    background-color: rgb(0, 183, 255);
+    font-size: 18px;
+    padding: 7px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+#SearchBar button:hover{
+    color: rgb(136, 135, 135);
+    transition: all 0.3s ease-out;
+}
+
+#SearchBar input[type="search"]{
+    outline: none;
+}
+
+/* Logout button */
+#LogoutBtn{
+    margin-left: 5%;
+}
+
+#LogoutBtn input[type="submit"]{
+    font-size: 15px;
+    background-color: rgb(70, 128, 204);
+    padding: 4px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#LogoutBtn input[type="submit"]:hover, header > input[type="submit"]:active{
+    background-color:  rgb(71, 157, 255);
+    transition: all 0.3s ease-out;
+}
+
+#LogoutBtn input[type="submit"]:focus{
+    outline: none;
+}
+
+/* Filter panel */
+#Filter{
+    padding: 10px 16px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgb(131, 131, 131);
+    background-color: ghostwhite;
+}
+
+#BranchName{
+    padding: 4px;
+    width: 20%;
+    border-radius: 6px;
+}
+
+#CourseType{
+    margin: 0px 60px;
+}
+
+#lbCourseType{
+    color: darkblue;
+    margin: 0px 20px;
+    text-decoration: dotted;
+}
+
+#Filter label[for="subject"], label[for="topic"]{
+    margin-right: 20px;
+}
+
+#Filter input[type="submit"]{
+    background-color: rgb(70, 128, 204);
+    padding: 4px 25px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+#Filter input[type="submit"]:hover, input[type="submit"]:active{
+    background-color:  rgb(71, 157, 255);
+    transition: all 0.3s ease-out;
+}
+
+#Filter input[type="submit"]:focus{
+    outline: none;
+}
+
+/* Courses display panel */
+#CoursesDisplay{
+    height: 72vh;
+    padding: 4px 16px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: auto;
+    background-color: ghostwhite;
+}
+
+#CoursesDisplayForm{
+    width: 100%;
+    height: 99%;
+}
+
+/* Courses list headings */
+#CoursesHead{
+    margin: 5px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    background-image: linear-gradient(180deg, white, rgb(239, 222, 247));
+}
+
+.CourseDataHead{
+    display: inline-block;
+    text-align: center;
+    width: 14%;
+    text-decoration: underline;
+}
+
+/* Courses list items */
+.Courses{
+    margin: 5px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+}
+
+.Courses:hover{
+    transform: scale(1.004);
+    transition: all 0.2s ease-out;
+}
+
+.SerialNo{
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.Courses input[type="text"]{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+}
+
+.smallsize{
+    width: 14%;
+}
+
+.largesize{
+    width: 24%;
+}
+
+.Courses input[type="text"]:focus{
+    outline: none;
+}
+
+.DetailsBtn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 14%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DetailsBtn input[type="submit"]{
+    padding: 5px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0, 179, 250);
+    cursor: pointer;
+}
+
+.DetailsBtn input[type="submit"]:hover{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.3s ease-out;
+}
+
+.DetailsBtn input[type="submit"]:focus{
+    outline: none;
+}
+
+/* Success Message */
+#SuccessMessage{
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: 24%;
+}
+
+#SuccessMessage label{
+    color: rgb(5, 230, 5);
+    background-color: rgb(49, 49, 49);
+    font-size: 26px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+#SuccessMessage i{
+    color: rgb(5, 230, 5);
+    font-size: 26px;
+}

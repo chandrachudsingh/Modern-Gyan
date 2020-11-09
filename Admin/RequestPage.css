@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merienda', cursive;
+}
+
+/* Site Name */
+#SiteName{
+    background-image: linear-gradient(to right, blue, rgb(252, 6, 252));
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    height: fit-content;
+    padding: 0px 3px;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 0px 10px rgb(78, 78, 78);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 20;
+}
+
+/* Request Panel Name */
+#PanelName{
+    font-size: 16px;
+    padding: 6px 20px;
+    background-color: rgb(0, 238, 255);
+    border: 2px solid black;
+    border-radius: 6px;
+    position: relative;
+    top: 40px;
+    left: 45%;
+    cursor: default;
+}
+
+/* Request panel */
+#RequestPanel{
+    height: 88vh;
+    padding: 10px 16px 4px 16px;
+    margin: 40px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: auto;
+    background-color: ghostwhite;
+}
+
+/* Requests list headings */
+#RequestPanelHead{
+    margin: 5px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    background-image: linear-gradient(180deg, white, rgb(239, 222, 247));
+}
+
+.RequestsHead{
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    text-decoration: underline;
+}
+
+/* Requests list items */
+.Requests{
+    margin: 5px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+}
+
+.Requests:hover{
+    transform: scale(1.004);
+    transition: all 0.2s ease-out;
+}
+
+.Requests input[type="text"], input[type="number"]{
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    border: none;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+}
+
+.Requests select{
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    border-radius: 4px;
+    background-image: linear-gradient(180deg, white, rgb(217, 244, 252));
+}
+
+.Requests input[type="text"]:focus, input[type="number"]:focus{
+    outline: none;
+}
+
+.SerialNo{
+    display: inline-block;
+    text-align: center;
+    width: 8%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.OperationBtn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.OperationBtn button{
+    padding: 4px 6px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0, 179, 250);
+    cursor: pointer;
+}
+
+.OperationBtn button:hover, button:active{
+    background-color: rgb(0, 221, 250);
+    transition: all 0.3s ease-out;
+}
+
+.OperationBtn button:focus{
+    outline: none;
+}
