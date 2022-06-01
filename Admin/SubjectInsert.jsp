@@ -110,7 +110,7 @@
         {
             %><script> 
                 document.getElementById("lbMessage").style.visibility="visible"; 
-                document.getElementById("lbMessage").innerHTML = "Admin added successfully <i class='fa-regular fa-circle-check'></i>";
+                document.getElementById("lbMessage").innerHTML = "Subject added successfully <i class='fa-regular fa-circle-check'></i>";
                 window.setTimeout('document.getElementById("lbMessage").style.opacity="0"; document.getElementById("lbMessage").style.visibility="hidden";',4000);
             </script><%
         }
