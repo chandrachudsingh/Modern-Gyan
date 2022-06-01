@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="FacultyHome.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function FirstLook()
@@ -409,7 +409,7 @@
                 document.getElementById('UpdatePreferencesForm').style.filter='blur(1px)';
                 document.getElementById("lbMessage").style.visibility="visible"; 
                 document.getElementById("lbMessage").style.boxShadow="1px 1px 6px gray"; 
-                document.getElementById("lbMessage").innerHTML = "Preferences updated successfully <i class='fas fa-check'></i>";
+                document.getElementById("lbMessage").innerHTML = "Preferences updated successfully <i class='fa-solid fa-check'></i>";
                 window.setTimeout('document.getElementById("lbMessage").style.opacity="0"; document.getElementById("lbMessage").style.visibility="hidden";'
                     + ' document.getElementById("UpdatePreferencesForm").style.filter="blur(0px)"; document.getElementById("lbMessage").style.boxShadow="none";',4000);
             </script><%

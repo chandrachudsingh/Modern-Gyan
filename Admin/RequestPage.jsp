@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="RequestPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function Accept() 
@@ -161,8 +161,8 @@
                         out.print("<option value='"+ faculty_platform[i][j] +"'> "+ faculty_platform[i][j] +"</option>");
 
                     out.print("</select> <input type='text' name='txStartDate"+ i +"' value='"+ start_date[i] +"' readonly/> <div class='OperationBtn'> <button type='submit'"
-                        + " name='sbAccept"+ i +"' onclick='Accept()'> Accept <i class='far fa-check-circle' style='font-size: 18px; color: rgb(0, 255, 21);'></i> </button>"
-                        + " <button type='submit' name='sbReject"+ i +"' onclick='Reject'> Reject <i class='far fa-times-circle' style='font-size: 18px; color: red;'></i>"
+                        + " name='sbAccept"+ i +"' onclick='Accept()'> Accept <i class='fa-regular fa-circle-check' style='font-size: 18px; color: rgb(0, 255, 21);'></i> </button>"
+                        + " <button type='submit' name='sbReject"+ i +"' onclick='Reject'> Reject <i class='fa-regular fa-circle-xmark' style='font-size: 18px; color: red;'></i>"
                         + " </button> </div> </div>");
                 }
 

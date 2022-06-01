@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="StudentHome.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function FirstLook()
@@ -33,7 +33,7 @@
     <header>
         <span id="greeting">Hi ${applicationScope.session_student}</span>
         <span id="SiteName" title="Modern-Gyan"> Modern-Gyan </span>
-        <a href="FindCourse.jsp"> <i class='fas fa-search' ></i> Search for courses </a>
+        <a href="FindCourse.jsp"> <i class="fa-solid fa-magnifying-glass"></i> Search for courses </a>
         <form name="direct" id="LogBtn"> 
             <input type="submit" name="btLogin" value="login" onclick="direct.action='../LoginPage.jsp'">
             <input type="submit" name="btLogout" value="logout" onclick="direct.action='../LogoutPage.jsp'"> 

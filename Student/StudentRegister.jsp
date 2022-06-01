@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="StudentRegister.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function DisableSubmit()
@@ -180,7 +180,7 @@
                     <th><label for="proof_doc">Upload Proof document</label></th><td class="colon">:</td>
                     <td class="ProofFileChoose">
                         <input type="file" name="fileProof_Img" id="proof_doc" onchange="EnableSubmit()" oninput="DisplayImg(0,'proof_doc')">
-                        <label id="lbProofFile" onclick="ClickInputFile('proof_doc')"> <i class="fa fa-upload"></i> Browse image </label></span>
+                        <label id="lbProofFile" onclick="ClickInputFile('proof_doc')"> <i class="fa-solid fa-upload"></i> Browse image </label></span>
                         <span><img src="" id="ProofFile"/></span>
                     </td>
                 </tr>

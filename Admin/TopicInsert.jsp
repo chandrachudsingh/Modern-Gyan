@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="TopicInsert.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function DisableSubmit()
@@ -110,7 +110,7 @@
         {
             %><script> 
                 document.getElementById("lbMessage").style.visibility="visible"; 
-                document.getElementById("lbMessage").innerHTML = "Admin added successfully <i class='fas fa-check'></i>";
+                document.getElementById("lbMessage").innerHTML = "Admin added successfully <i class='fa-regular fa-circle-check'></i>";
                 window.setTimeout('document.getElementById("lbMessage").style.opacity="0"; document.getElementById("lbMessage").style.visibility="hidden";',4000);
             </script><%
         }

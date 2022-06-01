@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="FindCourse.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
     
 </head>
 
@@ -15,12 +15,12 @@
 
     <%-- Header Panel --%>
     <header>
-        <form action="StudentHome.jsp" id="HomeBtn"> <button type="submit" name="btHome"> <i class='fas fa-house-user'></i> </button> </form>
+        <form action="StudentHome.jsp" id="HomeBtn"> <button type="submit" name="btHome"> <i class="fa-solid fa-house-user"></i> </button> </form>
         <span id="greeting">Hi ${applicationScope.session_student}</span>
         <span id="SiteName" title="Modern-Gyan"> Modern-Gyan </span>
         <form action="FindCourse.jsp" id=SearchBarForm>
             <div id="SearchBar">
-                <input type="search" name="txSearch" id="Search" placeholder="Search"><button type="submit" name="sbSearch"> <i class='fas fa-search' ></i> </button>
+                <input type="search" name="txSearch" id="Search" placeholder="Search"><button type="submit" name="sbSearch"> <i class="fa-solid fa-magnifying-glass"></i> </button>
             </div>
         </form>
         <form action="../LogoutPage.jsp" id="LogoutBtn"> <input type="submit" name="btLogout" value="logout"> </form>
@@ -491,7 +491,7 @@
                 document.getElementById("CoursesDisplay").style.filter="blur(1px)"; 
                 document.getElementById("lbMessage").style.visibility="visible"; 
                 document.getElementById("lbMessage").style.boxShadow="1px 1px 6px gray"; 
-                document.getElementById("lbMessage").innerHTML = "'Thank you.' Your enrollment request has been submitted. <i class='fa fa-thumbs-up'></i>";
+                document.getElementById("lbMessage").innerHTML = "'Thank you.' Your enrollment request has been submitted. <i class='fa-solid fa-thumbs-up'></i>";
                 window.setTimeout('document.getElementById("lbMessage").style.opacity="0"; document.getElementById("lbMessage").style.visibility="hidden";'
                     + ' document.getElementById("CoursesDisplay").style.filter="blur(0px)"; document.getElementById("lbMessage").style.boxShadow="none";',4000);
             </script><%

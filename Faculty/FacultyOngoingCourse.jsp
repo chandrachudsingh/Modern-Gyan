@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="FacultyOngoingCourse.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -196,7 +196,7 @@
                             <label name="lbMeetingPassword<%=i%>" class="lbcontent"> Meeting Password : </label> 
                             <input type="text" name="txMeetPass<%=i%>" class="MeetingPassword alert Smallsize" value="<%= meeting_password[i] %>"/>
                         </div>
-                        <button type="submit" name="sbSend<%=i%>" id="sbSend<%=i%>" class="SendBtn" title="Send"> <i class="fa fa-paper-plane-o"></i> </button>
+                        <button type="submit" name="sbSend<%=i%>" id="sbSend<%=i%>" class="SendBtn" title="Send"> <i class="fa-solid fa-paper-plane-top"></i> </button>
                     </div>
                 </form>
             </div>
@@ -249,7 +249,7 @@
                 document.getElementsByClassName('OngoingCourses').item(0).style.filter='blur(1px)';
                 document.getElementById("lbMessage").style.visibility="visible"; 
                 document.getElementById("lbMessage").style.boxShadow="1px 1px 6px gray"; 
-                document.getElementById("lbMessage").innerHTML = "Done <i class='fa fa-thumbs-up'></i>";
+                document.getElementById("lbMessage").innerHTML = "Done <i class='fa-solid fa-thumbs-up'></i>";
                 window.setTimeout('document.getElementById("lbMessage").style.opacity="0"; document.getElementById("lbMessage").style.visibility="hidden";'
                     + ' document.getElementsByClassName("OngoingCourses").item(0).style.filter="blur(0px)"; document.getElementById("lbMessage").style.boxShadow="none";',4000);
             </script><%

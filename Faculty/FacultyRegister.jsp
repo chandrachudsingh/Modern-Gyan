@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="FacultyRegister.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
     
     <script>
         function DisableSubmit()
@@ -119,7 +119,7 @@
                     <th><label for="fac_img">Faculty Image</label></th><td class="colon">:</td>
                     <td class="FacultyImageChoose">
                         <span><input type="file" name="fileFac_Img" id="fac_img"  onchange="EnableSubmit()" oninput="DisplayImg(0,'fac_img')"> 
-                            <label id="lbFacultyImg" onclick="ClickInputFile('fac_img')"> <i class="fa fa-upload"></i> Browse image </label></span>
+                            <label id="lbFacultyImg" onclick="ClickInputFile('fac_img')"> <i class="fa-solid fa-upload"></i> Browse image </label></span>
                         <span><img src="" id="FacultyImage"/></span>
                     </td>
                 </tr>
@@ -127,7 +127,7 @@
                     <th><label for="code_img">Code Image</label></th><td class="colon">:</td>
                     <td class="FacultyImageChoose">
                         <span> <input type="file" name="fileCode_Img" id="code_img" onchange="EnableSubmit()" oninput="DisplayImg(1,'code_img')"> 
-                            <label id="lbCodeImg" onclick="ClickInputFile('code_img')"> <i class="fa fa-upload"></i> Browse image </label></span>
+                            <label id="lbCodeImg" onclick="ClickInputFile('code_img')"> <i class="fa-solid fa-upload"></i> Browse image </label></span>
                         <span><img src="" id="CodeImage"/></span>
                     </td>
                 </tr>

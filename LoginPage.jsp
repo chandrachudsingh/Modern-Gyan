@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="LoginPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function ChangeText()
@@ -32,7 +32,7 @@
     <div id="LoginPanel">
         <div id="LoginImage"> <img src="Images/identity-verification-admin.svg" alt=""> </div>
         <div id="LoginFields">
-            <i class="fas fa-sign-in-alt"></i>
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
             <h1>Login/Signup</h1>
             <p>Get a personalised experience, and access all your activities and courses.</p>
             <form action="LoginPageBack.jsp" method="POST">
@@ -62,7 +62,7 @@
             %><script> 
                 document.getElementById("lbMessage").style.visibility="visible"; 
                 document.getElementById("lbMessage").style.boxShadow="1px 1px 6px gray"; 
-                document.getElementById("lbMessage").innerHTML = "Registration successfull <i class='fa fa-thumbs-up'></i>, login to continue..";
+                document.getElementById("lbMessage").innerHTML = "Registration successfull <i class='fa-solid fa-thumbs-up'></i>, login to continue..";
                 window.setTimeout('document.getElementById("lbMessage").style.opacity="0"; document.getElementById("lbMessage").style.visibility="hidden";'
                     + ' document.getElementById("lbMessage").style.boxShadow="none";',4000);
             </script><%

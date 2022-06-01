@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="AdminHome.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function HideSubData() 
@@ -54,7 +54,7 @@
             // document.getElementById("active_student_count").style.display = "none";
             // document.getElementById("faculty_count").style.display = "none";
             document.getElementById("FacultyDisplay").style.height = "84vh";
-            document.getElementById("expandIcon").innerHTML = "<i class='fas fa-compress' onclick='ShrinkBar()'></i>";
+            document.getElementById("expandIcon").innerHTML = "<i class='fa-solid fa-compress' onclick='ShrinkBar()'></i>";
 
             sessionStorage.setItem("facultydisplay_bar", "expand");
         }
@@ -67,7 +67,7 @@
             // document.getElementById("faculty_count").style.display = "block";
             // document.getElementById("BtnPanel").style.display = "block";
             document.getElementById("FacultyDisplay").style.height = "58vh";
-            document.getElementById("expandIcon").innerHTML = "<i class='fas fa-expand' onclick='ExpandBar()'></i>";
+            document.getElementById("expandIcon").innerHTML = "<i class='fa-solid fa-expand' onclick='ExpandBar()'></i>";
 
             sessionStorage.setItem("facultydisplay_bar", "shrink");
         }
@@ -91,7 +91,7 @@
         <span id="SiteName" title="Modern-Gyan"> Modern-Gyan </span>
         <form action="AdminHome.jsp" id="SearchBar">
             <div>
-                <input type="search" name="txSearch" id="" placeholder="Search for faculty"><button type="submit"> <i class='fas fa-search' ></i> </button>
+                <input type="search" name="txSearch" id="" placeholder="Search for faculty"><button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
             </div>
         </form>
         <form action="../LogoutPage.jsp" id="LogoutBtn"><input type="submit" name="btLogout" value="logout"></form>
@@ -418,7 +418,7 @@
     </div>
 
     <%-- Faculty details display --%>
-    <div id="expandIcon"> <i class="fas fa-expand" onclick="ExpandBar()"></i> </div>
+    <div id="expandIcon"> <i class="fa-solid fa-expand" onclick="ExpandBar()"></i> </div>
     <div id="FacultyDisplay">
         <form action='../Faculty/FacultyProfile.jsp' method="POST">
         <%

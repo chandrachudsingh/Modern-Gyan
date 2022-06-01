@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CourseEnroll.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -234,20 +234,20 @@
                     for(int k=1; k<=5; k++)
                     {
                         if(k <= intRating)
-                            stars += "<i class='fas fa-star' style='color: orange;'></i> ";
+                            stars += "<i class='fa-solid fa-star' style='color: orange;'></i> ";
                         else
                         {
                             if(intRating == k-1)
                             {
                                 if(decRating < .3)
-                                    stars += "<i class='far fa-star' style='color: orange;'></i> ";
+                                    stars += "<i class='fa-regular fa-star' style='color: orange;'></i> ";
                                 else if(decRating <= .7)
-                                    stars += "<i class='fas fa-star-half-alt' style='color: orange;'></i> ";
+                                    stars += "<i class='fa-regular fa-star-half-stroke' style='color: orange;'></i> ";
                                 else
-                                    stars += "<i class='fas fa-star' style='color: orange;'></i> ";
+                                    stars += "<i class='fa-solid fa-star' style='color: orange;'></i> ";
                             }
                             else
-                                stars += "<i class='far fa-star' style='color: orange;'></i> ";
+                                stars += "<i class='fa-regular fa-star' style='color: orange;'></i> ";
                         }
                     }
                     

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="FacultyProfile.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c99db268c1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95d52dbbb6.js" crossorigin="anonymous"></script>
 
     <script>
         function FirstAppearance() 
@@ -246,7 +246,7 @@
                         <th><label for="faculty_img">Faculty Image</label></th><td class="colon">:</td>
                         <td id="FacultyImageChoose">
                             <span><input type="file" name="fileFacultyImg" id="faculty_img" value="" onchange="ImageChange()"> 
-                                <label id="lbImg" onclick="ClickInputFile()"> <i class="fa fa-upload"></i> Browse image </label></span>
+                                <label id="lbImg" onclick="ClickInputFile()"> <i class="fa-solid fa-upload"></i> Browse image </label></span>
                             <span><img src="<%= faculty_img %>" id="FacultyImage"/></span>
                         </td>
                     </tr>
@@ -352,7 +352,7 @@
                     for(i=0; i<count_subjects; i++)
                     {
                         out.print("<div class='Subjects'> <label class='SerialNo2'> "+ (i+1) +"). </label> <label class='SubjectName'>"+ subject_name[i]
-                              + " </label> <label class='Rating'>"+ rating[i] +"<i class='fas fa-star' style='color: orange;'></i>"
+                              + " </label> <label class='Rating'>"+ rating[i] +"<i class='fa-solid fa-star' style='color: orange;'></i>"
                               + " ("+ rating_count[i] +" ) </label> </div>");
                     }
                     out.print(" </div>");
