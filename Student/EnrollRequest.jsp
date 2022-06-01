@@ -44,7 +44,7 @@
 
             stmt.executeUpdate("Create table if not exists "+ strDate +"_RequestTb(request_id int auto_increment primary key, student_id varchar(255)," 
 					+ " faculty_code varchar(255), course_code varchar(20), slotno varchar(255), platform varchar(255), start_date date,"
-                    + " status varchar(255) default waiting)");
+                    + " status varchar(255) default 'waiting')");
 
             PreparedStatement pstmt = con.prepareStatement("Insert into "+ strDate +"_RequestTb(student_id, faculty_code, course_code, slotno,"
                 + " platform, start_date) values (?,?,?,?,?,?)");

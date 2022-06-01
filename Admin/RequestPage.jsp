@@ -51,9 +51,13 @@
                 
             stmt.execute("Use Modern_Gyan_Db");
 
+            stmt.executeUpdate("Create table if not exists "+ preDate +"_RequestTb(request_id int auto_increment primary key, student_id varchar(255)," 
+					+ " faculty_code varchar(255), course_code varchar(20), slotno varchar(255), platform varchar(255), start_date varchar(255),"
+                    + " status varchar(255) default 'waiting')");
+
             stmt.executeUpdate("Create table if not exists "+ strDate +"_RequestTb(request_id int auto_increment primary key, student_id varchar(255)," 
 					+ " faculty_code varchar(255), course_code varchar(20), slotno varchar(255), platform varchar(255), start_date varchar(255),"
-                    + " status varchar(255) default waiting)");
+                    + " status varchar(255) default 'waiting')");
 
             ResultSet rs = stmt.executeQuery("SELECT count(*) from "+ preDate +"_RequestTb where status='waiting'");
             while(rs.next())
