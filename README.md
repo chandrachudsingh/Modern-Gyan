@@ -23,53 +23,53 @@ The main aim of this project is to build a platform where Engineering Students c
 
 ### Student/Faculty Panel
 
-#### <u>Student/Faculty Login Page</u>
+#### <ins>Student/Faculty Login Page</ins>
 Login Page for students and faculty. There is also an option for New users to register.
 ![Student/Faculty LoginPage](SiteImages/Student_Faculty_LoginPage.png)
 
-#### <u>Student Registration Page</u>
+#### <ins>Student Registration Page</ins>
 Students can register immediately as soon as they fill all the details.
 ![Student Registration Page](SiteImages/StudentRegister.png)
 
-#### <u>Faculty Registration Page</u>
+#### <ins>Faculty Registration Page</ins>
 Faculty members are verified by the Admin after there registration is complete.
 ![Faculty Registration Page](SiteImages/FacultyRegister.png)
 ![Faculty Registration Page](SiteImages/FacultyRegister2.png)
 
-#### <u>Registration Success Login Page</u>
+#### <ins>Registration Success Login Page</ins>
 ![Registration Success](SiteImages/RegisterSuccess.png)
 
-#### <u>Home Page</u>
+#### <ins>Home Page</ins>
 Home Page Without Login -
 ![Home Page](SiteImages/HomePage.png)
 
 ### Student Panel
 
-#### <u>Student Home Page</u>
+#### <ins>Student Home Page</ins>
 Displays student's Upcoming, Ongoing & Finished courses, and top 5 subjects & top 5 topics from his/her branch.
 ![Student Home Page](SiteImages/StudentHomePage.png)
 
-#### <u>Find Coruse Page</u>
+#### <ins>Find Course Page</ins>
 Lets user filter subjects and topics branch-wise, and also users can search directly from SearchBar.
 ![Find Course Page](SiteImages/FindCoursePage.png)
 
-#### <u>Course Enroll Page</u>
+#### <ins>Course Enroll Page</ins>
 Shows details about the chosen course along with faculties available for the same. Student can select the timing slot and platform for learning the course from a particular faculty.
 ![Course Enroll Page](SiteImages/CourseEnrollPage.png)
 
-#### <u>Course Enrollment Success Message</u>
+#### <ins>Course Enrollment Success Message</ins>
 Displays the message for successful enrollment in the course.
 ![Enrollment Successful Message](SiteImages/EnrollSuccess.png)
 
 
 ### Faculty Panel
 
-#### <u>Faculty Home Page</u>
+#### <ins>Faculty Home Page</ins>
 Displays Upcoming, Ongoing & Completed courses by the faculty. And also displays a panel where the faculty can update his/her preferences.
 ![Faculty Home Page](SiteImages/FacultyHomePage.png)
 ![Faculty Home Page](SiteImages/FacultyHomePage2.png)
 
-#### <u>Faculty Profile Page</u>
+#### <ins>Faculty Profile Page</ins>
 Displays faculty's profile and preferences and a means to update his/her profile details.
 ![Faculty Profile Page](SiteImages/FacultyProfilePage.png)
 ![Faculty Profile Page](SiteImages/FacultyProfilePage2.png)
@@ -77,11 +77,11 @@ Displays faculty's profile and preferences and a means to update his/her profile
 
 ### Admin Panel
 
-#### <u>Admin Login Page</u>
+#### <ins>Admin Login Page</ins>
 Login Page for admins.
 ![Admin Login Page](SiteImages/AdminLoginPage.png)
 
-#### <u>Admin Home Page</u>
+#### <ins>Admin Home Page</ins>
 It displays:-
 - Total number of registered & active students from each branch and total number of faculties present.
 - Faculty brief profiles.
@@ -91,39 +91,39 @@ It displays:-
 ![Admin Home Page](SiteImages/AdminHomePage2.png)
 ![Admin Home Page](SiteImages/AdminHomePage3.png)
 
-#### <u>Admin - Faculty Profile view Page</u>
+#### <ins>Admin - Faculty Profile view Page</ins>
 For viewing the general profile of faculties.
 ![Faculty Profile View Page](SiteImages/FacultyProfileViewPage.png)
 ![Faculty Profile View Page](SiteImages/FacultyProfileViewPage2.png)
 
-#### <u>Add Admin Page</u>
+#### <ins>Add Admin Page</ins>
 Admins can make another admin here.
 ![Add Admin Page](SiteImages/AddAdminPage.png)
 
 Admin Added Successful message
 ![Admin Added Successfully Message](SiteImages/AddAdminSuccess.png)
 
-#### <u>Add Branch Page</u>
+#### <ins>Add Branch Page</ins>
 Admins can add a branch to the database here.
 ![Add Branch Page](SiteImages/AddBranchPage.png)
 
 Branch Added Successful message
 ![Branch Added Successfully Message](SiteImages/AddBranchSuccess.png)
 
-#### <u>Add Subject Page</u>
+#### <ins>Add Subject Page</ins>
 Admins can add a Subject to the database here.
 ![Add Subject Page](SiteImages/AddSubjectPage.png)
 
 Subject Added Successful message
 ![Subject Added Successfully Message](SiteImages/AddSubjectSuccess.png)
 
-#### <u>Add Topic Page</u>
+#### <ins>Add Topic Page</ins>
 Admins can add a Topic of a particular subject to the database here.
 ![Add Topic Page](SiteImages/AddTopicPage.png)
 
 Topic Added Successful message
 ![Topic Added Successfully Message](SiteImages/AddTopicSuccess.png)
 
-#### <u>Request Page</u>
+#### <ins>Request Page</ins>
 All the students course enrollment request shows here. From here admin can either accept it or reject it.
 ![Request Page](SiteImages/RequestPage.png)
